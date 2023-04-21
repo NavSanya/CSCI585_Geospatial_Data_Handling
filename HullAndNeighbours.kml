@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="s1">
+<LineStyle>
+<color>7f0000ff</color>
+<width>4</width>
+</LineStyle>
+<PolyStyle>
+<color>7f0000ff</color>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+</PolyStyle>
+</Style>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28379,34.02968</coordinates></Point>
+</Placemark>
+<Placemark><name>McClintonEnterance</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28714,34.02492</coordinates></Point>
+</Placemark>
+<Placemark><name>CupcakeAtm</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28659,34.02088</coordinates></Point>
+</Placemark>
+<Placemark><name>CandGjuiceCo</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28633,34.02015</coordinates></Point>
+</Placemark>
+<Placemark><name>AsaVCallLawLibrary</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28491,34.01884</coordinates></Point>
+</Placemark>
+<Placemark><name>DohenyLibrary</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28408,34.02032</coordinates></Point>
+</Placemark>
+<Placemark><name>ExpositionEnterance</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28629,34.01865</coordinates></Point>
+</Placemark>
+<Placemark><name>HahnPlazaFountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28525,34.02028</coordinates></Point>
+</Placemark>
+<Placemark><name>LeaveyLibrary</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28301,34.02170</coordinates></Point>
+</Placemark>
+<Placemark><name>BingTheatreFountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28556,34.02232</coordinates></Point>
+</Placemark>
+<Placemark><name>JeffersonBlvdAndWattWay</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28537,34.02405</coordinates></Point>
+</Placemark>
+<Placemark><name>Starbucks</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28413,34.02418</coordinates></Point>
+</Placemark>
+<Placemark><name>USCVillageFountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28523,34.02527</coordinates></Point>
+</Placemark>
+
+<Placemark>
+<name>ConvexHullall</name>
+<Style><LineStyle><color>ffff7d53</color></LineStyle><PolyStyle><color>80fe4d28</color></PolyStyle></Style>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.28629,34.01865 -118.28714,34.02492 -118.28379,34.02968 -118.28301,34.0217 -118.28491,34.01884 -118.28629,34.01865</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon> 
+</Placemark>
+
+<Placemark>
+<name>Neighbour1</name>
+<description>Neighbour1</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.28379,34.02968 -118.28523,34.02527</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Neighbour2</name>
+<description>Neighbour2</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.28379,34.02968 -118.28413,34.02418</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour3</name>
+<description>Neighbour3</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.28379,34.02968 -118.28714,34.02492</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour4</name>
+<description>Neighbour4</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.28379,34.02968 -118.28537,34.02405</coordinates>
+</LineString>
+</Placemark>
+
+</Document></kml>
